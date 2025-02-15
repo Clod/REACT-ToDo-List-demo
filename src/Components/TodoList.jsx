@@ -76,8 +76,8 @@ const TodoList = () => {
           <div key={index} className="todo-card">
             <div className="heading_todo">
               <h3>{todo.heading}</h3> {/* Display the heading here */}
-              // index is passed to the handleDeleteTodo function so that it knows which heading to remove.
-              // note that it is not passed explicitly to the function, but rather implicitly through the closure.
+              {/* // index is passed to the handleDeleteTodo function so that it knows which heading to remove.
+              // note that it is not passed explicitly to the function, but rather implicitly through the closure. */}
               <button className="delete-button-heading" onClick={handleDeleteTodo}>Delete Heading</button>
             </div>
             <ul>
